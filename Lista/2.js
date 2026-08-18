@@ -2,6 +2,6 @@
 
 const prompt = require('prompt-sync')(); // Adicione esta linha no topo
 
-let number = Number(prompt("digite um numero"));
+let number = Number(prompt("digite um numero: "));
 console.log("numero informado foi: "+number);
 
